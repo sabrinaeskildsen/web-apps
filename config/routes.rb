@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  rails.application.routes.draw do
-    resources "tacos"
+    resources "tacos" # /tacos
+    resources "dice" # /dice
+    resources "cards" # /cards
+    resources "companies" # /companies
 end
